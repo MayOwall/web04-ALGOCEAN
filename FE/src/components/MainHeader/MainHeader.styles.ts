@@ -60,20 +60,12 @@ export const Searchbar = styled.form`
 
 export const Container = styled.header`
   display: flex;
-  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+
   width: 100%;
   height: 5rem;
   padding: 0 3rem;
-  background-color: var(--color-grayscale-white);
   border-bottom: 1px solid var(--color-grayscale-100);
-
-  .inner {
-    display: flex;
-    align-items: center;
-    gap: 1.5rem;
-
-    width: 100%;
-    height: 100%;
-    max-width: var(--max-width);
-  }
+  background-color: var(--color-grayscale-white);
 `;

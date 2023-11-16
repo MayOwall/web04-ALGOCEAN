@@ -2,21 +2,15 @@ import styled from 'styled-components';
 
 export const MainNav = styled.nav`
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
+  align-items: center;
+
   width: 100%;
   height: 3.2rem;
-  background-color: var(--color-grayscale-white);
-  border-bottom: 1px solid var(--color-grayscale-100);
   padding: 0 3rem;
+  border-bottom: 1px solid var(--color-grayscale-100);
+  background-color: var(--color-grayscale-white);
 
-  .inner {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-
-    width: 100%;
-    max-width: var(--max-width);
-  }
   ol {
     display: flex;
     align-items: center;
